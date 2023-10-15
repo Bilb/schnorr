@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@tsconfig/node-lts": "^18.12.5",
+    "@types/lodash": "^4.14.199",
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  },
+  "name": "schnorr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Audric Ackermann <audric@loki.network>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
