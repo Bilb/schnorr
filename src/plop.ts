@@ -20,7 +20,7 @@ class Node {
   private shares: Array<Share> = [];
   private quorumSize: number;
   private totalNodesCount: number;
-  private ownShare: Share;
+  private ownShare: Share | null = null;
 
   constructor(totalNodesCount: number, quorumSize: number) {
     this.quorumSize = quorumSize;
