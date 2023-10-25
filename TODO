@@ -1,0 +1,9 @@
+- make the secret field the first entry of the polynomial
+- add lagrange logic to build the public polynomial knowing all the shares (do it myself?)
+- add id to nodes
+- link shares to corresponding nodes
+-
+
+- move the main() to a coordinator class, handling the logic
+- add the commitment logic (with crypto) before sending the shares, verify shares match the commitment
+- move the coordinator to not have one, instead have all nodes arrange themselves and know what they should do
